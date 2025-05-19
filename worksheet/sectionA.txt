@@ -1,0 +1,24 @@
+Answer the following questions briefly (2–4 lines each):
+1. What problem does a Version Control System solve?
+2. Differentiate between Centralized and Distributed VCS.
+3. What is Git and how is it different from GitHub?
+4. What is a staging area in Git?
+5. What does the .git folder contain?
+6. What is git branching and command to create new branch and switching from one to
+another branch
+7. What is the difference between git reset and git reset --hard?
+8. What is a squash merge, and when would you use it?
+9. Explain the use of git rebase with an example scenario.
+Note: - Create a txt file inside the vs code and write the answer in it answer cant get
+exceed from 2 to 3 lines.
+
+Answers:-
+1.A Version Control System (VCS) helps manage changes to source code over time, allowing collaboration, tracking revisions, and restoring previous versions.
+2. Centralized VCS uses a single server for all versions, while Distributed VCS (like Git) allows every user to have a full copy of the repository.
+3. Git is a distributed version control system; GitHub is a cloud-based platform for hosting Git repositories with collaboration features.
+4. The staging area in Git is a place where changes are prepared (staged) before committing them to the repository.
+5. The .git folder contains all the metadata for a Git repository, including configuration, branches, and history.
+6. Git branching allows parallel development. Use `git branch <name>` to create a branch and `git checkout <name>` to switch branches.
+7. `git reset` moves the HEAD to a specific commit, while `git reset --hard` also discards all local changes in working directory.
+8. A squash merge combines all commits from a branch into one. It’s used to keep the main branch history clean and concise.
+9. `git rebase` moves or combines a sequence of commits. For example, to apply feature branch commits on updated main: `git checkout feature`, `git rebase main`.
